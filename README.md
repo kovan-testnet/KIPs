@@ -5,9 +5,9 @@ Format</br>
 Area: Short Description
 
 Acronyms:</br>
-BV (Block Validators)
+BV (Block Validators)</br>
 FC (Faucet)
-
+</br>
 
 Example:</br>
 BV: limits on KETH that an authority node can hold</br>
