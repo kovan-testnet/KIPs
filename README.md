@@ -6,7 +6,9 @@ Area: Short Description
 
 Acronyms:</br>
 BV (Block Validators)
+FC (Faucet)
 
 
 Example:</br>
-BV: limits on KETH that an authority node can hold
+BV: limits on KETH that an authority node can hold</br>
+FC: More Accessible Automated Faucet
