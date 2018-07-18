@@ -28,7 +28,6 @@ This function is the same as `create`, except that the contract creation address
 * Read a 32-byte value located in memory at `salt`.
 * Calculate the contract address as `keccak256(sender_address + salt + code_hash)`.
 
-
 ## Implementation
 
 To be added.
