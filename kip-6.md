@@ -23,7 +23,7 @@ After `FORK_BLOCK`, allow a new function to be imported from module "env" with t
 fn gasleft() -> i64;
 ```
 
-This function will return gas left in the current execution context (non-adjusted for Wasm, since the following call destiation might be EVM or Wasm)   
+This function will return gas left in the current execution context (non-adjusted for Wasm, since the following call destination might be EVM or Wasm)   
 
 ## Implementation
 
