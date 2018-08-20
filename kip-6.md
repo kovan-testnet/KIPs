@@ -17,7 +17,7 @@ For default calls with no gas costs specifed downstream, user code now cannot in
 
 ## Specification
 
-After `FORK_BLOCK`, allow a new function to be imported via `env`, with host function id `230`.
+After `FORK_BLOCK`, allow a new function to be imported from module "env" with the name "gasleft".
 
 ```
 fn gasleft() -> i64;
