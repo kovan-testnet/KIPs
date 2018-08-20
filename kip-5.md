@@ -1,5 +1,5 @@
 ---
-kip: 5
+kip: 6
 title: "gasleft" Host Function for pWASM
 author: Nikolay Volf (@NikVolf)
 discussions-to: -
