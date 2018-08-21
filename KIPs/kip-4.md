@@ -1,6 +1,6 @@
 ---
 kip: 4
-title: create2 Host Function for pWASM
+title: "create2" Host Function for pWASM
 author: Wei Tang (@sorpaas)
 discussions-to: https://github.com/kovan-testnet/KIPs/issues/5
 status: Draft
@@ -9,7 +9,7 @@ category: Core
 created: 2018-07-18
 ---
 
-# create2 Host Function for pWASM
+# "create2" Host Function for pWASM
 
 ## Motivation
 
