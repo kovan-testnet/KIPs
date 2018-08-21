@@ -1,6 +1,6 @@
 ---
 kip: 4
-title: CREATE2 Host Function for pWASM
+title: create2 Host Function for pWASM
 author: Wei Tang (@sorpaas)
 discussions-to: https://github.com/kovan-testnet/KIPs/issues/5
 status: Draft
@@ -9,7 +9,7 @@ category: Core
 created: 2018-07-18
 ---
 
-# CREATE2 Host Function for pWASM
+# create2 Host Function for pWASM
 
 ## Motivation
 
@@ -17,7 +17,7 @@ In current Kovan testnet, the `create` host function allows new contracts to be 
 
 ## Specification
 
-After `FORK_BLOCK`, allow a new function to be imported via `env`, with host function id `220`.
+After `FORK_BLOCK`, allow a new function to be imported via `env`.
 
 ```
 fn create2(endowment: *const u8, salt: *const u8, code_ptr: *const u8, code_len: u32, result_ptr: *mut u8) -> i32;
