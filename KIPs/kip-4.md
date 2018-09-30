@@ -26,7 +26,7 @@ fn create2(endowment: *const u8, salt: *const u8, code_ptr: *const u8, code_len:
 This function is the same as `create`, except that the contract creation address is changed to:
 
 * Read a 32-byte value located in memory at `salt`.
-* Calculate the contract address as `keccak256(sender_address + salt + code_hash)`.
+* Calculate the contract address as `keccak256(0xff ++ sender_address ++ salt ++ keccak256(init_code)))[12:]`.
 
 ## Implementation
 
